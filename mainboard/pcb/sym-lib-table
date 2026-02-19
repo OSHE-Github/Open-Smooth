@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Termanal")(type "KiCad")(uri "${KIPRJMOD}/KiCADv6/2026-01-20_15-32-50.kicad_sym")(options "")(descr ""))
-)
