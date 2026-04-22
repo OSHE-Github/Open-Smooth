@@ -3,7 +3,6 @@
 # Project Overview
 OPENSmooth introduces an open-source 3D print post-processor that uses acetone vapor and heat to smooth filament layer lines. The system integrates electronic monitors to regulate exposure time and ensure safe operation, reducing risks associated with manual methods. By combining automated vapor control with real-time safety monitoring, the design provides a low-cost, accessible solution to improve the surface quality of 3D-printed parts.
 # Bill of Materials
-## Bill of Materials
 
 ### Physical Construction
 | Category | Item | Part Number | Source | Cost |
