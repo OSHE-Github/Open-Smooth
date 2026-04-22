@@ -1,0 +1,3 @@
+Var(EtoN,4)
+Var(Current,4)
+Run(number.txt)

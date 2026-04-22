@@ -1,0 +1,7 @@
+//Stop smothing
+Serial(Run 0);
+Serial(setTemp 0);
+Serial(setFilter 0);
+Serial(setCircFan 0);
+Serial(setServo 0);
+Run(begin.txt)

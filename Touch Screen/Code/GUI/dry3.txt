@@ -1,0 +1,8 @@
+//dry buttons update
+RoundRect(95,110,160,165,10,46518)
+RoundRect(170,110,235,165,10,46518)
+RoundRect(245,110,310,165,10,1247)
+Text(EEPROM4,110,125,3,0)
+Text(EEPROM5,185,125,3,0)
+Text(EEPROM6,260,125,3,0)
+Var(Select3,6)

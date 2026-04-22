@@ -1,0 +1,8 @@
+//acetone buttons update
+RoundRect(95,45,160,100,10,46518)
+RoundRect(170,45,235,100,10,46518)
+RoundRect(245,45,310,100,10,1247)
+Text(EEPROM1,110,60,3,0)
+Text(EEPROM2,185,60,3,0)
+Text(EEPROM3,260,60,3,0)
+Var(Select1,3)

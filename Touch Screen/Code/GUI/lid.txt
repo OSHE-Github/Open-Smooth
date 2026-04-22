@@ -1,0 +1,27 @@
+Rotation(1);
+Clear(0)
+//top
+Rectangle(0,0,320,40,0);
+Rectangle(0,35,320,40,65535);
+Rectangle(187,0,192,35,65535);
+Text(Acetone:,5,10,2,65535)
+UpdateText(X,102,10,2,3,0,65535)
+Text(X,102,10,2,65535)
+UpdateText(Y,145,10,2,3,0,65535)
+Text(Y,145,10,2,65535)
+Text(TEMP:,200,10,2,65535)
+UpdateText(T.,260,10,2,2,0,65535)
+Text(T.,260,10,2,65535)
+Text(C,290,10,2,65535)
+
+RoundRect(50,160,270,230,10,63488)
+RoundRect(50,50,270,160,30,46518)
+Rectangle(50,130,270,150,46518)
+RoundRect(60,60,260,170,20,55002)
+Rectangle(50,150,270,170,0)
+
+/Rectangle(50,170,60,180,0)
+/Rectangle(260,170,270,180,0)
+
+Text(LID OPEN,88,190,3,0)
+

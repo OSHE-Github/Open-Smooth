@@ -1,0 +1,4 @@
+Var(Current,6)
+Word(Stadus)
+Var(Current,2)
+Run(num2.txt)
