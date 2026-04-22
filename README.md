@@ -69,9 +69,82 @@ OPENSmooth introduces an open-source 3D print post-processor that uses acetone v
 |----------|------|------------|--------|------|
 | Programming | Arduino IDE | Arduino IDE 2.3.2 | Arduino | $0 |
 
+
+# Assembly Overview
+### 1. Print All Components
+- 3D print all required parts using PETG filament
+- Base components (13 parts)
+- Filter components (9 parts)
+- Rotating table components (4 parts) + servo housing (1 part)
+- Recommended to have ~2kg of filament available
+- Use supports only where necessary (mainly the table)
+
+### 2. Assemble the Base
+- Fit all base components together using the dovetail joints
+- Ensure correct orientation (parts only fit one way)
+- Press-fit assembly should hold the structure together
+- Apply epoxy if additional strength is needed
+
+### 3. Prepare and Assemble the Lid
+- Cut and drill openings for:
+  - Heater (rear-center)
+  - Filter (top-center)
+- Mount heater:
+  - Cut a circular hole for the heater body
+  - Drill mounting holes
+  - Install the gasket and secure the heater
+- Mount filter:
+  - Cut a square intake hole
+  - Drill mounting holes (M3)
+- Install a limit switch at the bottom edge of the lid to detect the open/closed state
+
+
+### 4. Assemble and Install the Filter
+- Assemble the main filter housing using M3 screws
+- Install a 60 mm fan and secure it with M4 screws
+- Prepare pellet drawer:
+  - Epoxy if printed in two parts
+  - Fill with carbon pellets
+- Insert pellet drawer and secure with clips and screws
+- Cut mounting holes and vent in enclosure
+- Attach filter and gasket to enclosure
+
+### 5. Install the Rotating Table System
+- Mount the servo into the servo housing
+- Route wires through housing cutouts
+- Install housing into base (center cutout)
+- Attach the spur gear to the servo shaft
+- Install the table spacer and the rotating table
+- Snap the fan grille into place
+
+### 6. Assemble Atomizers
+- Assemble each atomizer:
+  - Insert wick into atomizer
+  - Secure wick using trimmed nail or pin
+- Extend wiring to reach the control PCB
+- Repeat for all atomizers
+- Fill with acetone and place into holders
+
+### 7. Final Assembly & Integration
+- Ensure all mechanical components are secured
+- Verify moving parts (table rotation, fan clearance)
+- Confirm proper placement of heater, filter, and sensors
+- Connect electronics (fans, heater, atomizers, sensors, etc.)
+- Perform a system check before operation
+
+### 8. Final Checks
+- Verify all fasteners are tight
+- Ensure no air leaks around the filter and heater
+- Confirm limit switch functionality
+- Test electrical connections safely
+
+**Note:**  
+Epoxy is optional in most areas but recommended for long-term durability.
+
+
 # Future Improvements
 ### Enclosure Stability and Sealing Capability
-The enclosure currently uses duct tape to keep a seal with the lid. This works well but it could be improved. Adding a lid locking mechanism with a layered rubber seal at the base would prevent the lid from unintentionally opening as well as provide a better seal.
+The enclosure currently uses duct tape to keep a seal with the lid. This works well, but it could be improved. Adding a lid locking mechanism with a layered rubber seal at the base would prevent the lid from unintentionally opening as well as provide a better seal.
 
 ### Atomizer bottles
-The atomizer bottles we used for this project are made of PET plastic. PET plastic is susceptible to acetone over long periods of time, causing the bottles to likely leak. In our testing the bottles showed minimal wear, but this doesn't mean they are 100% safe. Bottles made of PP or HDPE plastic would be much better suited for this application.
+The atomizer bottles we used for this project are made of PET plastic. PET plastic is susceptible to acetone over long periods of time, causing the bottles to likely leak. In our testing, the bottles showed minimal wear, but this doesn't mean they are 100% safe. Bottles made of PP or HDPE plastic would be much better suited for this application.
